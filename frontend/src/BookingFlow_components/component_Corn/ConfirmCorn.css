@@ -1,0 +1,187 @@
+/* Toàn bộ container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(136, 136, 136, 0.4);
+    border-radius: 15px;
+    padding:20px 20px;
+    max-width: 450px;
+    height: fit-content;
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  /* Chứa card và thông tin ghế*/
+  .container_card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 450px;
+    height: fit-content;
+  }
+  /* Thẻ card chứa nội dung poster và suất chiếu */
+  .card {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  /* Poster */
+  .poster {
+    display: flex;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+  }
+  
+  /* Thông tin */
+  .info {
+    display: flex;
+    text-align: left;
+    margin: 10px;
+    gap: 5px;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  
+  /* Tiêu đề */
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Phụ đề */
+  .subtitle {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Chi tiết */
+  .details {
+    font-size: 14px;
+    color: #333;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .details p {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0;
+    white-space: normal; /* Cho phép nội dung xuống dòng */
+    word-wrap: break-word; /* Tự động ngắt dòng nếu từ quá dài */
+    overflow-wrap: break-word;
+    padding-right: 5px;
+  }
+
+  /*Thanh ngang */
+  .crossbar {
+    width: 380px;
+    height: 2px;
+    background-color: rgba(0,0,0, 0.8);
+    margin-left: 15px;
+  }
+
+  /* Thông tin ghế*/
+  .infoseat {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 14px;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .seatdetail {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 10px;
+    gap: 5px;
+    
+  }
+  .seatdetail p {
+    font-weight: 100;
+  }
+  .seatprice {
+    width: 50%;
+    text-align: end;
+    padding-right: 10px;
+    font-weight:bold;
+  }
+
+  /* Khung tổng tiền*/
+  .total {
+    background: white;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  .totaltext {
+    padding: 10px 10px;
+    width: 50%;
+  }
+  .totalprice {
+    width: 50%;
+    text-align: end;
+    font-weight: bold;
+    padding-right: 10px;
+}
+  
+  /* Vùng chứa các nút */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 300px;
+  }
+  
+  /* Nút "Quay lại" */
+  .button-back {
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .button-back:hover {
+    background-color: #746f6f;
+    transition: transform 0.3s ease;
+  }
+  .button-back:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  /* Nút "Tiếp theo" */
+  .button-next {
+    padding: 10px 20px;
+    background-color: #b30e34;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .button-next:hover {
+    background-color: #b94661;
+    transition: transform 0.3s ease;
+  }
+  .button-next:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+    

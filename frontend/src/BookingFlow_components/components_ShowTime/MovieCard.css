@@ -1,0 +1,93 @@
+/* MovieCard.css */
+.movie-card {
+    width: 89%;
+    background-color: rgba(217, 217, 217, 0.35); /* Nền tím đậm */
+    border-radius: 10px;
+    padding: 20px;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    position: relative;
+
+    margin-top: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .logo img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-content {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .movie-poster img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+
+    
+    border: 5px solid rgba(0, 0, 0, 0.4);
+    
+  }
+  
+  .movie-details h2 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .movie-duration{
+    margin: 15px 0;
+    font-size: 0.9rem;
+  }
+  .movie-date{
+    margin: 15px 0px;
+    margin-left: 30px;
+    font-size: 0.9rem;
+  }
+  
+  .movie-info p {
+    margin: 15px 5px;
+    font-size: 0.9rem;
+  }
+  
+  .movie-info strong {
+    color: #ffcc00; /* Vàng nhấn mạnh */
+  }
+  
+  .movie-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .movie-badge span {
+    display: inline-block;
+    background-color: #4a0072; /* Nền badge */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .movie-timeline {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .timeline-point {
+    width: 12px;
+    height: 12px;
+    background-color: #555;
+    border-radius: 50%;
+  }
+  
+  .timeline-point.active {
+    background-color: #ff0000; /* Điểm active màu đỏ */
+  }
+  

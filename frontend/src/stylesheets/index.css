@@ -1,0 +1,77 @@
+/* Utils */
+@import url("./utils/utils.css");
+
+/* vendor, CDN */
+@import url("./vendor/vendor.css");
+
+/* config, import,... */
+@import url("./base/base.css");
+@import url("./components/btn.css");
+@import url("./components/product.css");
+@import url("./components/filter.css");
+@import url("./components/box-decor.css");
+@import url("./components/nav-link.css");
+@import url("./components/menu-side.css");
+@import url("./components/pagination.css");
+@import url("./components/textarea.css");
+
+@import url("./components/loading.css");
+
+/* navigate bar / menu bar */
+@import url("./layouts/nav-bar.css");
+
+/* header page */
+@import url("./layouts/header.css");
+
+/* header page slide */
+@import url("./components/slide.css");
+
+/* down arrow animation */
+@import url("./components/down-animation-icon.css");
+
+/* body */
+@import url("./layouts/body.css");
+
+/* lastest product */
+@import url("./layouts/latest-product.css");
+
+/* footer */
+@import url("./layouts/footer.css");
+
+/* copyright */
+@import url("./layouts/copy-right.css");
+
+/* auth page */
+@import url("./layouts/auth.css");
+
+/* otp page */
+@import url("./layouts/otp.css");
+
+/* account page */
+@import url("./layouts/user.css");
+
+/* post page */
+@import url("./layouts/post.css");
+
+/* notify pop up */
+@import url("./components/notify-popup.css");
+
+/* about */
+@import url("./components/about.css");
+
+.menu_profile_active{
+    border-bottom: 1px solid white;
+}
+
+.wrap_img_account_top:hover > div{
+    display: block !important;
+}
+
+.hover_li{
+    padding: 10px;
+    transition: 0.25s ease-in-out;
+}
+
+.hover_li:hover{
+    background-color: rgb(39, 39, 39);
+}

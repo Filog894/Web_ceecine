@@ -1,0 +1,116 @@
+.wrap-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#filter-search{
+    width: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-wrap: nowrap;
+    padding: 0% 3%;
+    background-color: transparent;
+    /* background-color: white; */
+    /* margin-top: -11px; */
+}
+
+#head-prodlist{
+    flex: 1;
+}
+
+.select_option{
+    margin-top: 10;
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: rgb(167, 167, 167);
+    border-radius: 50px;
+    padding: 1% 0.5%;
+}
+
+.select_option > select{
+    font-size: 14px;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    transition: 0.25s ease-in-out;
+    flex: 2;
+    background-color: red;
+    outline: white;
+    border: white 1px solid;
+    border-radius: 7px;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .wrap_search_at_filter{
+        display: flex!important;
+        width: 100%;
+    }
+
+    .wrap_search_at_filter > div{
+        width: 100%!important;
+    }
+
+    .wrap_search_at_filter > div > input{
+        width: 100%!important;
+    }
+
+    .wrap-search{
+        display: none!important;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .select_option{
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: start;
+        padding: 15px;
+    }
+    
+    .select_option > select{
+        width: 100%;
+    }
+}
+
+.btn-save-filter{
+    font-size: 14px;
+    padding: 10px 20px;
+    transition: 0.25s ease-in-out ;
+    flex: 1;
+    border-radius:50px;
+    /* border-radius: 30px; */
+    font-weight: 600;
+}
+
+.btn-save-filter:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn-save-filter:hover  p{
+    animation: textTrans normal 0.5s;
+}
+
+.btn-save-filter:hover{
+    background-color: white;
+    color:black
+}
+
+.btn-cancle-filter{
+    font-size: 14px;
+    padding: 5px 12px;
+    transition: 0.25s ease-in-out;
+}
+
+.btn-cancle-filter:hover{
+    background-color: white;
+    color:black
+}

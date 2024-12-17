@@ -1,0 +1,21 @@
+.down{
+    z-index: 10;
+    width: 4%;
+    top: 87%;
+    position: absolute;
+    animation: down-animation 3s infinite;
+}
+
+@keyframes down-animation {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(15px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}

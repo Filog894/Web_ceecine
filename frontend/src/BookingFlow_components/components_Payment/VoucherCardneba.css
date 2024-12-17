@@ -1,0 +1,77 @@
+.voucher-card {
+    display: flex;
+    background: #ff944d;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15px;
+    width: 220px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+  }
+  
+  .voucher-card.selected {
+    border: 2px solid #00ff00; /* Đổi màu viền khi được chọn */
+  }
+  
+  .voucher-left {
+    margin-right: 10px;
+    display: flex;
+    width: 30px;
+    justify-content: center;
+  }
+  
+  .voucher-logo {
+    width: 70px;
+    height: 30px;
+    transform: rotate(-90deg);
+    object-fit: fill;
+  }
+  
+  .voucher-content {
+    flex: 2;
+  }
+  
+  .voucher-content h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: yellow;
+  }
+  
+  .voucher-content p {
+    margin: 5px 0;
+    font-size: 8px;
+  }
+  
+  .voucher-detail {
+    color: #ffeeba;
+    font-size: 6px;
+    text-decoration: underline;
+  }
+  
+  .voucher-select button {
+    background: white;
+    color: black;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 10px;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 2px;
+  }
+  
+  .voucher-select button:hover {
+    background: #602a7a;
+  }
+  

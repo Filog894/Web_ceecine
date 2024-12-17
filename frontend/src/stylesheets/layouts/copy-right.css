@@ -1,0 +1,16 @@
+.copyright{
+    width: 100dvw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1% 2%;
+    background-color: #6d0c2300;
+    color: rgba(255, 255, 255, 0.544);
+    font-size: 11px;
+}
+
+@media screen and (max-width: 768px) {
+    .copyright{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,44 @@
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .step {
+    display: flex;
+    align-items: center;
+    text-align: center;    
+  }
+  
+  .circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #969696;
+    
+  }
+  
+  .circle.active {
+    background: linear-gradient(312deg, #FB7A8E 2.27%, #302C8B 97.73%);
+    border: 1px solid rgba(212, 201, 201, 0.5);
+    box-shadow: 0px 0px 2px 2px rgba(226, 213, 213, 0.5);
+  }
+  
+  .line {
+    width: 100px;
+    height: 2px;
+    background: #969696;
+    margin: 0 10px;
+  }
+  
+  .label {
+    margin-top: 10px;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .label.active-text {
+    color: white;
+  }
+  

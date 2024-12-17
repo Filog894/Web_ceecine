@@ -1,0 +1,273 @@
+.wrap_newest_product{
+    width: 100vw; 
+    height: 100dvh;
+    position: relative;
+}
+
+.newest_prod{
+    height: 100%;
+    width: 100vw;             /* Chiều rộng của container */
+    overflow-x: scroll;        /* Cuộn theo chiều ngang */
+    white-space: nowrap;       /* Giữ các phần tử con trong cùng một hàng */
+    scroll-snap-type: x mandatory;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+
+.newest_product_img_back{
+    position: absolute;
+    width: 100dvw;
+    height: 100dvh;
+    background-position: center;
+    background-size: cover;
+}
+
+#img4{
+    background-image: url("../../assets/img/pexels-fotoaibe-1669799.jpg");
+    animation: lastProdImg1 35s infinite 5s;
+}
+
+@keyframes lastProdImg1 {
+    0% {
+        opacity: 1;
+      }
+  
+      15% {
+        opacity: 1;
+      }
+  
+      30% {
+        opacity: 0;
+      }
+  
+      45% {
+         opacity: 0;
+      }
+  
+      60% {
+         opacity: 0;
+      }
+  
+      75% {
+         opacity: 0;
+      }
+  
+      100%{
+        opacity: 1;
+      }
+}
+
+#img5{
+    background-image: url("../../assets/img/pexels-itsterrymag-2988860.jpg");
+    animation: lastProdImg2 35s infinite 5s;
+}
+
+@keyframes lastProdImg2 {
+    0% {
+        opacity: 0;
+      }
+  
+      15% {
+        opacity: 0;
+      }
+  
+      30% {
+        opacity: 1;
+      }
+  
+      45% {
+         opacity: 1;
+      }
+  
+      60% {
+         opacity: 0;
+      }
+  
+      75% {
+         opacity: 0;
+      }
+  
+      100%{
+        opacity: 0;
+      }
+}
+
+#img6{
+    background-image: url("../../assets/img/pexels-vince-2227832.jpg");
+    animation: lastProdImg3 35s infinite 5s;
+}
+
+@keyframes lastProdImg3 {
+    0% {
+        opacity: 0;
+      }
+  
+      15% {
+        opacity: 0;
+      }
+  
+      30% {
+        opacity: 0;
+      }
+  
+      45% {
+         opacity: 0;
+      }
+  
+      60% {
+         opacity: 1;
+      }
+  
+      75% {
+         opacity: 1;
+      }
+  
+      100%{
+        opacity: 0;
+      }
+}
+
+.wrap_product{ 
+    display: flex;
+    align-items: center;
+    transition: 0.25s ease-in-out;
+    background-color: transparent;
+}
+
+@keyframes scrollProduct {
+    0% {
+      transform: translateX(0%);
+    }
+
+    15% {
+      transform: translateX(0%);
+    }
+
+    30% {
+        transform: translateX(-100%);
+    }
+
+    45% {
+        transform: translateX(-100%);
+    }
+
+    60% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-200%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+
+  }
+
+.slide{
+    height: 100vh;
+    width: 100vw;
+    flex: 0 0 100%;
+    justify-content: center;
+    align-items: start;
+    scroll-snap-align: start;
+}
+
+.product{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.product_in{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    border-radius:15px;
+}
+
+.wrap_user_info{
+    position: absolute;
+    display: flex;
+    top:5%;
+    left: 5%;
+    justify-content: space-between;
+    align-items: start;
+    gap: 7px;
+}
+
+.user_img_prod{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-color: rgba(65, 8, 8, 0.68);
+    border-style: solid;
+    border-width: 2px;
+    padding: 3px;
+    border-radius: 100%;
+}
+
+.u_name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.time_prod{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.588);
+}
+
+.img_product{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.img_prod{
+    /* border-radius: 15px; */
+    width: clamp(550px, 50vw, 750px);
+    height: clamp(400px,35vw, 600px);
+    object-fit: cover;
+}
+
+.prod_info{
+    background-color: rgba(255, 255, 255, 0.683);
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start; 
+    gap: 17px;
+}
+.prod_title{
+    width: 100%;
+}
+.prod_detail{
+    text-wrap: pretty;
+    height: 150px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.product_more{
+    margin-top: 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.498);
+}
+
+.product_more:hover{
+    background-color: white;
+    color: black;
+}
+
+.product_more:hover  p{
+    animation: textTrans normal 0.5s;
+}

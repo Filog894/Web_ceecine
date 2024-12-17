@@ -1,0 +1,69 @@
+#price_inf{
+    width: 100%;
+}
+
+#price_la_inf{
+    position: relative;
+    text-align: left;
+    top: -43px;
+}
+
+#title_inf{
+    width: 100%;
+}
+
+#title_la_inf{
+    position: relative;
+    text-align: left;
+    top: -43px;
+}
+
+#address_inf{
+    width: 100%;
+}
+
+#address_la_inf{
+    position: relative;
+    text-align: left;
+    top: -43px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #price_la_inf{
+        font-size: 19px;
+    }
+
+    #title_la_inf{
+        font-size: 19px;
+    }
+
+    #address_la_inf{
+        font-size: 19px;
+    }
+
+    #title_inf{
+        font-size: 18px;
+    }
+
+    #address_inf{
+        font-size: 18px;
+    }
+
+    #price_inf{
+        font-size: 18px;
+    }
+
+    #sel_city{
+        font-size: 17px;
+    }
+
+    #sel_dist{
+        font-size: 17px;
+    }
+
+    #sel_ward{
+        font-size: 17px;
+    }
+
+}

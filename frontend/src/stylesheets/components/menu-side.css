@@ -1,0 +1,78 @@
+/* menu side css */
+.wrap-nav-left-side{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100dvh;
+    width: 100dvw;
+    z-index: 10000;
+    backdrop-filter: brightness(0.75);
+    display: none;
+    transition: 0.25s ease-in-out;
+}
+
+#logo-nav-side{
+    color: black;
+    font-size: 20px;
+}
+
+.wrap-nav-box{
+    background-color: rgba(255, 255, 255, 0.922);
+    backdrop-filter: blur(20px);
+    height: 100dvh;
+    width: 25dvw;
+    transform: translateX(-25dvw);
+    transition: 0.25s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .wrap-nav-box{
+        height: 100dvh;
+        width: 70dvw;
+        transform: translateX(-70dvw);
+    }
+}
+
+.nav-left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-head-navside{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7%;
+}
+
+#close-nav-btn{
+    padding: 3px;
+}
+
+.wrap-li-navleft{
+   width: 100%;
+}
+
+#li-nav-left{
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: start;
+    color: black;
+    width: 100%;
+}
+
+.li-nav-el-side{
+    border:solid 1px transparent;
+    width: 100%;
+    padding: 4% 0% 4% 10%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.li-nav-el-side:hover{
+    background-color: rgb(235, 235, 235);
+}

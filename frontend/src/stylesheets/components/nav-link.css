@@ -1,0 +1,25 @@
+.nav_link{
+    border-bottom: 2px transparent solid;
+    color: rgb(255, 255, 255);
+    padding-inline: 1px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    transition: 0.25s ease-in-out;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    cursor: pointer;
+}
+
+
+.nav_header_activ{
+    border-bottom: 2px rgb(255, 255, 255) solid;
+}
+
+.nav_header_green{
+    color: #015138;
+}
+
+.nav_link:hover{
+    border-bottom: 2px rgb(255, 255, 255) solid;
+}

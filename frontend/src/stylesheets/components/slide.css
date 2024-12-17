@@ -1,0 +1,71 @@
+.header_img_back{
+    filter: brightness(50%);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100dvw;
+    height: 100dvh;
+    z-index: 1;
+    transition: 0.25s;
+}
+
+#img1{
+    opacity: 1;
+    animation: aniImg1 20s infinite;
+}
+#img2{
+    opacity:0;
+    animation: aniImg2 20s infinite;
+}
+#img3{
+    opacity: 0;
+    animation: aniImg3 20s infinite;
+}
+
+@keyframes aniImg1 {
+    0% {
+      opacity: 1;
+    }
+    33% {
+      opacity: 0;
+    }
+    66% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+@keyframes aniImg2 {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+
+}
+
+@keyframes aniImg3 {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

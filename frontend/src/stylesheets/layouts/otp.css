@@ -1,0 +1,93 @@
+
+.wrap_f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    height: 100dvh;
+}
+.w_o{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+    padding: 2%;
+    gap: 10px;
+    width: 80dvw;
+}
+.form{
+     padding: 4%;
+}
+.inp1{
+    width: 30px;
+    height: 40px;
+    font-size: 22px;
+    outline: none;
+    border-style: solid;
+    text-align: center;
+    border-radius: 3px;
+    margin: 3%;
+    font-weight: bold;
+}
+.inpcode{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+}
+.wrap_manual{
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.wrap_sub{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.sub_but{
+    font-size: 16px;
+    padding: 2% 3%;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+.sub_but:disabled{
+    background-color: rgb(139, 138, 138);
+}
+.wrap_resent{
+    margin-top: 10px;
+}
+.resent{
+    font-size: 14px;
+    font-weight: bold;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    cursor: pointer;
+    background-color: white;
+    
+}
+.resent:hover{
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    border-width: 2px;
+}
+.w_logo{
+    background-color: black;
+    border-style: none;
+    border-radius: 5px;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+}

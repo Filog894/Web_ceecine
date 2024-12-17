@@ -1,0 +1,412 @@
+
+.account{
+    width: 100%;
+}
+
+.wrap_account{
+    width: 100%;
+    background-color: rgb(244,244,244);
+    padding-block: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.account_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: white;
+    padding-inline: 5%;
+    padding-block: 3%;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+.wrap_your_post{
+    background-color: rgba(255, 255, 255, 0);
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 30px;
+    padding-bottom: 3%;
+}
+
+
+.wrap_img_account{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .wrap_your_post{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .wrap_img_account{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .account_info {
+        padding: 10px;
+        font-size: 18px;
+    }
+}
+
+.img_account{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:2px solid black;
+}
+
+#edit{
+    /* width: 50%; */
+    margin-top: 30px;
+}
+
+#edit:hover{
+    background-color: white;
+    color: black;
+}
+
+#edit:hover  p{
+    animation: textTrans normal 0.5s;
+}
+
+#edit{
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.25s ease-in-out;
+    text-wrap: nowrap;
+}
+
+.wrap_greet{
+    width: 100%;
+    padding-top: 15px;
+    color: black;
+    font-size: 16px;
+}
+
+
+
+.name{
+    font-size: 25px;
+}
+
+.wrap_per_basic_info{
+    padding-top: 15px;
+}
+
+.wrap_instance_info{
+    padding-top: 20px;
+    display: flex;
+    gap: 40px;
+}
+
+.wrap_followed{
+    font-weight: 600;
+    text-align: center;
+}
+
+.wrap_post{
+    font-weight: 600;
+    text-align: center;
+}
+
+.wrap_account_info{
+    margin-top: 30px;
+    border-radius: 30px;
+    margin-bottom: 0px;
+    background-color: white;
+    /* width: 100%; */
+    height: 0px;
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.account_info{
+    padding: 25px;
+}
+
+.wrap_info_account_detail{
+    margin-top: 50px;
+}
+
+.inp_wrap{
+    width: 100%;
+}
+
+#mail_inf{
+    margin-top: -2px;
+    width: 100%;
+}
+
+#mail_la_inf{
+    position: relative;
+    text-align: left;
+    top: -43px;
+}
+
+#pass_inf{
+    width: 100%;
+}
+
+#pas_la_inf{
+    position: relative;
+    text-align: left;
+    top: -43px;
+}
+
+#pas_new_inf{
+    width: 100%;
+}
+
+#pas_new_la_inf{
+    position: relative;
+    text-align: left;
+    top: -43px;
+}
+
+#name_inf{
+    width: 100%;
+}
+
+#name_la_inf{
+    position: relative;
+    text-align: left;
+    top: -43px;
+}
+
+#phone_inf{
+    width: 100%;
+}
+
+#phone_la_inf{
+    position: relative;
+    text-align: left;
+    top: -43px;
+}
+
+#save:hover{
+    background-color: white;
+    color: black;
+}
+
+#save:hover  p{
+    animation: textTrans normal 0.5s;
+}
+
+#cancel:hover{
+    background-color: white;
+    color: black;
+}
+
+#cancel:hover  p{
+    animation: textTrans normal 0.5s;
+}
+
+.btn_cus{
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.25s ease-in-out;
+    text-wrap: nowrap;
+}
+
+#change_pass{
+    margin-left: 10px;
+}
+
+#change_pass:hover{
+    background-color: white;
+    color: black;
+}
+
+#change_pass:hover  p{
+    animation: textTrans normal 0.5s;
+}
+
+#new_post{
+    margin-left: 10px;
+}
+
+#new_post:hover{
+    background-color: white;
+    color: black;
+}
+
+#new_post:hover  p{
+    animation: textTrans normal 0.5s;
+}
+
+
+/* From Uiverse.io by Yaya12085 */ 
+.custum-file-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #cacaca;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 48px 35px -48px rgba(0,0,0,0.1);
+  }
+  
+  .custum-file-upload .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  
+  .custum-file-upload .icon svg {
+    height: 100px;
+    fill: rgba(75, 85, 99, 1);
+  }
+  
+  .custum-file-upload .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custum-file-upload .text span {
+    font-weight: 400;
+    color: rgba(75, 85, 99, 1);
+  }
+  
+  .custum-file-upload input {
+    display: none;
+  }
+  
+  .img_preview_upload{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+
+  @media screen and (max-width: 768px) {
+    .img_preview_upload{
+        width: 50px;
+        height: 100px;
+        border-radius: 20px;
+        object-fit: cover;
+      }
+    }
+
+  .img_prev_wrap{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #wrap_img_ava_preview{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #name_img_ava_preview{
+    font-size: 14px;
+  }
+
+  .wrap_user_behave {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .wrap_user_behave{
+        margin-top: 10px;
+        width: 100%;
+        display: flex;      
+        gap: 0;
+        column-gap: 20px!important;
+    }
+
+    .btn_cus > p{
+        font-size: 12px;
+    }
+    
+    .account_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .wrap_greet{
+        display: flex;
+        flex-direction: column;
+        padding: 7%;
+    }
+
+    .img_account{
+        width: 100%;
+        border-radius: 0%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover;
+        border:2px solid rgba(0, 0, 0, 0);
+    }
+
+    #edit{
+        font-size: 16px;
+        width: 100%;
+        margin: 0;
+        padding: 3% 7% ;
+        margin-top: 0px;
+        width: 100%;
+        background-color: transparent;
+    }
+    #edit > p{
+        color: black;
+        font-size: 16px;
+    }
+
+    #change_pass{
+        font-size: 16px;
+        width: 100%;
+        margin: 0;
+        padding: 3% 7% ;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: transparent;
+    }
+    
+    #change_pass > p{
+        color: black;
+        font-size: 16px;
+    }
+
+    #new_post{
+        font-size: 16px;
+        margin: 0;
+        padding: 3% 7% ;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    #new_post > p{
+        font-size: 16px;
+        color: black;
+    }
+}
